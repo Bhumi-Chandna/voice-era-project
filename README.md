@@ -1,4 +1,4 @@
-# VOICE-ERA - Sign Language Video Calling Platform
+# voice-era - Sign Language Video Calling Platform
 
 A real-time video calling platform with integrated sign language recognition, designed to help deaf/mute individuals communicate effectively.
 
@@ -61,7 +61,7 @@ yarn install
 ```bash
 # backend/.env
 MONGO_URL="mongodb://localhost:27017"
-DB_NAME="signmeet_db"
+DB_NAME="voice-era_db"
 CORS_ORIGINS="*"
 
 # frontend/.env
@@ -121,7 +121,7 @@ ngrok http 3000
 ## 📁 Project Structure
 
 ```
-signmeet/
+voice-era/
 ├── backend/
 │   ├── server.py              # Main FastAPI application
 │   ├── sign_model.h5          # Trained TensorFlow model
@@ -194,4 +194,4 @@ The model recognizes 106 different signs including:
 
 ---
 
-**SignMeet** - Bridging communication gaps through technology 🤟
+**voice-era** - Bridging communication gaps through technology 🤟
